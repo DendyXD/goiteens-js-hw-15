@@ -67,6 +67,9 @@ const account = {
   },
 };
 
+
+const {transactions, deposit, withdraw, getBalance, getTransactionDetails, getTransactionTotal, createTransaction} = account
+
 account.getBalance();
 
 
